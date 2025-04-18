@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Mac & Linux system files
+.DS_Store
+*.swp
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# Audio/Video cache (선택)
+*.wav
+*.mp4
+*.avi
+*.mov
+
+# Logs
+*.log
+
+# VSCode settings (선택)
+.vscode/
+
+# Hidden metadata
+Thumbs.db
