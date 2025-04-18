@@ -1,0 +1,15 @@
+/path/to/output/
+├── corpus/          # 오디오 파일(.wav)과 텍스트 파일(.txt) 저장
+├── frames/          # 비디오 프레임 저장
+├── faces/           # 감지된 얼굴 이미지 저장
+├── landmarks/       # 얼굴 랜드마크 데이터 저장
+├── mouth/           # 입 영역 이미지 저장
+├── preprocessed/    # 전처리된 오디오 특성 저장
+│   ├── TextGrid/    # 생성된 TextGrid 파일 저장
+│   ├── mel/         # 멜 스펙트로그램 저장
+│   ├── pitch/       # 피치 특성 저장
+│   ├── energy/      # 에너지 특성 저장
+│   └── duration/    # 지속 시간 정보 저장
+└── ...
+
+conda install -c conda-forge openfst
